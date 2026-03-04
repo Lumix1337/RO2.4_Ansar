@@ -26,32 +26,45 @@ public class HelloWorld
             Console.WriteLine("Zero");
         }
 
+
+        //Console.WriteLine("Enter age:");
+        //int num2 = int.Parse(Console.ReadLine());
+        //if (num2 > 0) { 
+        //    if (num2 < 13)
+        //    {
+        //        Console.WriteLine("Child");
+        //    }
+        //    else if (13 <= num2 && num2 <= 19)
+        //    {
+        //        Console.WriteLine("Teenager");
+        //    }
+        //    else if (20 <= num2 && num2 < 60)
+        //    {
+        //        Console.WriteLine("Adult");
+        //    }
+        //    else {
+        //        Console.WriteLine("Senior");
+        //    }
+        
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Enter real age");
+        //}
+
         //Ex2
 
-        Console.WriteLine("Enter age:");
-        int num2 = int.Parse(Console.ReadLine());
-        if (num2 > 0) { 
-            if (num2 < 13)
-            {
-                Console.WriteLine("Child");
-            }
-            else if (13 <= num2 && num2 <= 19)
-            {
-                Console.WriteLine("Teenager");
-            }
-            else if (20 <= num2 && num2 < 60)
-            {
-                Console.WriteLine("Adult");
-            }
-            else {
-                Console.WriteLine("Senior");
-            }
-        
+        Console.WriteLine("Enter any number:");
+        int num22 = int.Parse(Console.ReadLine());
+        if (num22 > 5 && num22 < 10)
+        {
+            Console.WriteLine("Your number is higher then 5 and less then 10");
         }
         else
         {
-            Console.WriteLine("Enter real age");
+            Console.WriteLine("Unknown number");
         }
+
 
         //Ex3
 
